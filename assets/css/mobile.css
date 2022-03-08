@@ -1,0 +1,50 @@
+/* Developed by laéx */
+#navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 100px;
+}
+#projects .items {
+    flex-direction: column;
+}
+#projects .items .item {
+    width: 100%;
+}
+.personeldevelopment .development {
+    flex-direction: column;
+}
+.personeldevelopment .development .development-image {
+    margin-right: 0.5rem;
+    text-align: center;
+    position: relative;
+}
+.personeldevelopment .development .development-image-github {
+    margin-right: 0.5rem;
+    text-align: center;
+    position: relative;
+}
+.personeldevelopment .development .development-image img {
+    height: 150px;
+    width: 175px;
+    border-radius: 5px;
+}
+.personeldevelopment .development .development-image-github img {
+    height: 150px;
+    width: 175px;
+    border-radius: 5px;
+}
+.primary-title {
+    color: black;
+    text-align: center;
+    letter-spacing: 1.2px; 
+    font-weight: 700; 
+    margin-bottom: 0.25rem;
+}
+.primary-description {
+    text-align: center;
+    letter-spacing: 1.2px; 
+    font-weight: 700; 
+    margin-bottom: 0.25rem; 
+}
