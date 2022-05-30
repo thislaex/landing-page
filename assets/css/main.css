@@ -26,11 +26,12 @@ html {
     align-items: center;
 }
 #navbar ul li a {
+    color: white;
+    text-decoration: none;
     padding: 0.5rem;
 }
 #navbar ul li a:hover {
-    background: #336ea2;
-    border-radius: 15px;
+    opacity: 0.7;
 }
 
 /* Home Section */
@@ -74,8 +75,7 @@ html {
     padding: 0.5rem;
 }
 #projects .items .item:hover {
-    color: red;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 #projects .items .item .url {
     color: blue;
@@ -89,11 +89,14 @@ html {
     color: #333;
     padding: 1rem;
 }
+#mypersoneldevelopment img:hover {
+    opacity: 0.9;
+}
 .primary-description .url {
     color: blue;
 }
 .primary-description .url:hover {
-    color: yellow;
+    opacity: 0.9;
 }
 
 .personeldevelopment {

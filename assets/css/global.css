@@ -50,8 +50,12 @@
     border: 0.5px solid  #333;
 }
 .btn-block {
+    background: white !important;
     width: 100%;
     text-align: center;
+}
+.btn-block:hover {
+    opacity: 0.8 !important;
 }
 
 /* Development */
@@ -61,10 +65,16 @@
     font-weight: 700; 
     margin-bottom: 0.25rem;
 }
+.primary-title:hover {
+    opacity: 0.6;
+}
 .primary-description {
     letter-spacing: 1.2px; 
     font-weight: 700; 
     margin-bottom: 0.25rem; 
+}
+.primary-description:hover {
+    opacity: 0.6;
 }
 .primary-url {
     color: black;
