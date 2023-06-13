@@ -1,3 +1,3 @@
-This landing page is a modern designed landing page. thislaex.xyz for live demo
+This landing page is a modern designed landing page. laex.com.tr for live demo
 The communication system is provided with PHPMailer.
-©️ Incsects INC. & VA Project - 2022
+©️ VA Project & Cpawid 2023
