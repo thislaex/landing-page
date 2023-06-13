@@ -1,3 +1,6 @@
+<?php
+require 'assets/languages/function.php'; // Languages function file
+?>
 <!-- Developed by laéx -->
 <!DOCTYPE html>
 <html lang="en">
@@ -19,12 +22,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <!-- TABLET -->
+    <!-- RESPONSIVE -->
     <link rel="stylesheet" media="(max-width: 768px)" href="assets/css/tablet.css">
     <link rel="stylesheet" media="(max-width: 500px)" href="assets/css/mobile.css">
 
     <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
 
@@ -35,10 +39,18 @@
                 <h1 class="heading-small">laéx Landing Page</h1>
 
                 <ul>
-                    <li class="nav-item"><a class="" href="#home">Home</a></li>
-                    <li class="nav-item"><a href="#projects">Projects</a></li>
-                    <li class="nav-item"><a href="#mypersoneldevelopment">My Personal Development</a></li>
-                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="" href="#home">
+                            <?php echo $lang['home']; ?>
+                        </a></li>
+                    <li class="nav-item"><a href="#projects">
+                            <?php echo $lang['projects']; ?>
+                        </a></li>
+                    <li class="nav-item"><a href="#mypersoneldevelopment">
+                            <?php echo $lang['development']; ?>
+                        </a></li>
+                    <li class="nav-item"><a href="#contact">
+                            <?php echo $lang['contact']; ?>
+                        </a></li>
                 </ul>
             </nav>
         </div>
@@ -48,34 +60,48 @@
 
         <div class="name text-center">
             <h2 class="heading-big">laéx</h2>
-            <p>Student of Vocational Technology Hight School | Editor | Web Developer</p>
+            <p>
+                <?php echo $lang['paragraph']; ?>
+            </p>
         </div>
-        <a href="#projects" class="btn btn-primary">View to My Projects</a>
+        <a href="#projects" class="btn btn-primary">
+            <?php echo $lang['viewProjects']; ?>
+        </a>
     </section>
     <section id="projects" class="bg-dark-blue">
-        <h3 class="text-center heading-medium">My Projects</h3>
+        <h3 class="text-center heading-medium">
+            <?php echo $lang['myProjects']; ?>
+        </h3>
         <div class="items">
             <article class="item">
                 <i class="fa-solid fa-comment"></i>
                 <h3>MellowTalk2</h3>
-                <p>I am both the founder and web developer of the <a class="url"
-                        href="https://play.google.com/store/apps/details?id=com.mellow.talkk">MellowTalk2</a> mobile
-                    app.</p>
+                <p>
+                    <?php echo $lang['pMellowTalk']; ?> <a class="url"
+                        href="https://play.google.com/store/apps/details?id=com.mellow.talkk">MellowTalk2</a>
+                    <?php echo $lang['pMellowTalk2']; ?>
+                </p>
             </article>
             <article class="item">
                 <i class="fa-solid fa-bug"></i>
                 <h3>Incsects</h3>
-                <p>I am the founder of the Incsects team and my team is a partner in projects such as Yapariz.net</p>
+                <p>
+                    <?php echo $lang['pIncsects']; ?>
+                </p>
             </article>
             <article class="item">
                 <i class="fa-solid fa-wifi"></i>
                 <h3>Yapariz.net</h3>
-                <p>I am the CEO of Yapariz.net project. I am a web developer and content writer.</p>
+                <p>
+                    <?php echo $lang['pYapariz']; ?>
+                </p>
             </article>
         </div>
     </section>
     <section id="mypersoneldevelopment">
-        <h3 class="text-center heading-medium">My Personel Development</h3>
+        <h3 class="text-center heading-medium">
+            <?php echo $lang['development']; ?>
+        </h3>
 
         <div class="container">
             <div class="personeldevelopment">
@@ -86,12 +112,11 @@
 
                     <div class="development-info">
                         <div class="primary-title">
-                            HTML Development
+                            <?php echo $lang['html']; ?>
                         </div>
                         <br>
                         <div class="primary-description">
-                            HTML is a foundation and necessary for Web Development. I'm trying to improve myself on the
-                            HTML side.
+                            <?php echo $lang['primaryHtml']; ?>
                         </div>
                     </div>
                 </div>
@@ -107,11 +132,12 @@
 
                     <div class="development-info">
                         <div class="primary-title">
-                            PHP Development
+                            <?php echo $lang['php']; ?>
                         </div>
                         <br>
                         <div class="primary-description">
-                            I develop myself in PHP and its software. I think I'm good at this job. </div>
+                            <?php echo $lang['primaryPhp']; ?>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -129,37 +155,71 @@
                         </div>
                         <br>
                         <div class="primary-description">
-                        <a class="url" href="https://github.com/thislaex"><p>Click to go to my Github page.</p></a></div>
+                            <a class="url" href="https://github.com/thislaex">
+                                <p>
+                                    <?php echo $lang['primaryGithub']; ?>
+                                </p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>
         </div>
         </div>
         </div>
     </section>
     <footer id="contact" class="bg-dark-blue">
+        <div class="selectLanguages">
+            <div class="container">
+                <h1 style="text-align: center;">
+                    <?php echo $lang['selectLanguages']; ?>
+                </h1>
+                <form>
+                    <div class="mb-3" style="display: grid; justify-content: center;">
+                        <select class="form-select" id="languageSelect" name="language" onchange="changeLanguage()">
+                            <option value="tr">Türkçe</option>
+                            <option value="en">English</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
         <div class="contact-form">
-            <?php if(isset($_GET['success'])    ): ?>
-            <div class="alert alert-success">Your message has been successfully delivered.</div>
+            <?php if (isset($_GET['success'])): ?>
+                <div class="alert alert-success">
+                    <?php echo $lang['alert-succes']; ?>
+                </div>
             <?php endif ?>
             <form method="POST" action="contact-post.php">
-                <h4 class="text-center heading-medium">Contact Me</h4>
+                <h1 style="text-align: center;">
+                    <?php echo $lang['contactMe']; ?>
+                </h1>
+                <div class="form-group">
+                    <label for="name">
+                        <?php echo $lang['name']; ?>
+                    </label>
+                    <input type="text" name="names" class="form-control" id="names"
+                        placeholder="<?php echo $lang['name']; ?>" />
+                </div>
+                <div class="form-group">
+                    <label for="email">
+                        <?php echo $lang['email']; ?>
+                    </label>
+                    <input type="text" name="email" class="form-control" id="email"
+                        placeholder="<?php echo $lang['email']; ?>" />
+                </div>
+                <div class="form-group">
+                    <label for="messages">
+                        <?php echo $lang['message']; ?>
+                    </label>
+                    <textarea name="messages" id="messages" class="form-control" rows="5"
+                        placeholder="<?php echo $lang['yourMessages']; ?>"></textarea>
+                </div>
 
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" name="names" class="form-control" id="names" placeholder="Name" />
-                </div>
-                <div class="form-group">
-                    <label for="email">E-Mail</label>
-                    <input type="text" name="email" class="form-control" id="email" placeholder="E-Mail" />
-                </div>
-                <div class="form-group">
-                    <label for="messages">Message</label>
-                    <textarea name="messages" id="messages" class="form-control" rows="5" placeholder="Your Messages..."></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-block">Send</button>
+                <button type="submit" class="btn btn-block">
+                    <?php echo $lang['send']; ?>
+                </button>
             </form>
 
             <ul>
@@ -171,9 +231,32 @@
         </div>
 
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script>
+        function changeLanguage() {
+            var languageSelect = document.getElementById('languageSelect');
+            var selectedLanguage = languageSelect.value;
+
+            if (selectedLanguage === 'tr') {
+                window.location.href = '?languages=tr';
+            } else if (selectedLanguage === 'en') {
+                window.location.href = '?languages=en';
+            }
+        }
+        var urlParams = new URLSearchParams(window.location.search);
+        var selectedLanguage = urlParams.get('languages');
+        if (selectedLanguage === 'en') {
+            document.getElementById('languageSelect').value = 'en';
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
     <script src="assets/js/js.js"></script>
 </body>
 
