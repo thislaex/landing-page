@@ -20,9 +20,9 @@ $lang['message'] = "Message";
 $lang['yourMessages'] = "Your Messages...";
 $lang['send'] = "Send";
 $lang['alert-succes'] = "Your message has been successfully delivered.";
-$lang['pMellowTalk'] = "I am both the founder and web developer of the";
-$lang['pMellowTalk2'] = "mobile app. (Closed)";
-$lang['pIncsects'] = "I am the founder of the Incsects team and my team is a partner in projects such as Yapariz.net (Closed)";
-$lang['pYapariz'] = "I am the CEO of Yapariz.net project. I am a web developer and content writer. (Closed)";
+$lang['pGeddic'] = "I am both the founder and web developer of the";
+$lang['pGeddic2'] = "mobile app. (Closed)";
+$lang['pCpawid'] = "I am the manager of the Cpawid team and my team is a partner in their projects like Geddic.com & GTAPlatform.com.";
+$lang['pGTAPlatform'] = "I am the Founder of GTAPlatform.com project. I am the Web Developer and Content Writer of the project.";
 $lang['selectLanguages'] = "Choose Language";
 ?>

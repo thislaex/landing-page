@@ -20,9 +20,9 @@ $lang['message'] = "Mesaj";
 $lang['yourMessages'] = "Mesajınız..";
 $lang['send'] = "Gönder";
 $lang['alert-succes'] = "Mesajınız başarıyla iletildi.";
-$lang['pMellowTalk'] = "Projenin hem Kurucusu hem de Web Geliştiricisiyim";
-$lang['pMellowTalk2'] = ". (Kapatıldı)";
-$lang['pIncsects'] = "Incsects ekibinin kurucusuyum ve ekibim Yapariz.net gibi projelere ortaktır. (Kapatıldı)";
-$lang['pYapariz'] = "Yapariz.net projesinin CEO'suyum. Ben bir web geliştiricisi ve içerik yazarıyım. (Kapatıldı)";
+$lang['pGeddic'] = "Projenin hem Kurucusu hem de Web Geliştiricisiyim";
+$lang['pGeddic2'] = ".";
+$lang['pCpawid'] = "Cpawid ekibinin kurucusuyum ve ekibim Geddic.com & GTAPlatform.com gibi projelerde ortaktır.";
+$lang['pGTAPlatform'] = "GTAPlatform.com projesinin Kurucusuyum. Projenin Web Geliştiricisi ve İçerik Yazarıyım.";
 $lang['selectLanguages'] = "Dil Seçin";
 ?>

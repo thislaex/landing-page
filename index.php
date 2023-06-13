@@ -75,25 +75,25 @@ require 'assets/languages/function.php'; // Languages function file
         <div class="items">
             <article class="item">
                 <i class="fa-solid fa-comment"></i>
-                <h3>MellowTalk2</h3>
+                <h3>Geddic</h3>
                 <p>
-                    <?php echo $lang['pMellowTalk']; ?> <a class="url"
-                        href="https://play.google.com/store/apps/details?id=com.mellow.talkk">MellowTalk2</a>
-                    <?php echo $lang['pMellowTalk2']; ?>
+                    <?php echo $lang['pGeddic']; ?> <a class="url"
+                        href="https://geddic.com">Geddic</a>
+                    <?php echo $lang['pGeddic2']; ?>
                 </p>
             </article>
             <article class="item">
                 <i class="fa-solid fa-bug"></i>
-                <h3>Incsects</h3>
+                <h3>Cpawid</h3>
                 <p>
-                    <?php echo $lang['pIncsects']; ?>
+                    <?php echo $lang['pCpawid']; ?>
                 </p>
             </article>
             <article class="item">
                 <i class="fa-solid fa-wifi"></i>
-                <h3>Yapariz.net</h3>
+                <h3>GTAPlatform.com</h3>
                 <p>
-                    <?php echo $lang['pYapariz']; ?>
+                    <?php echo $lang['pGTAPlatform']; ?>
                 </p>
             </article>
         </div>
